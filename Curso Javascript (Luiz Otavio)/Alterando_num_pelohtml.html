@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         const num = prompt('Digite um numero ' )
+        document.body.innerHTML +=`o numero é ${num} </br> `;
+        document.body.innerHTML+= `a raiz quadrada é ${num ** 0.5 }</br>`;
+        document.body.innerHTML += `${num} é um numero inteiro ? ${Number.isInteger(num)} </br>`;
+        document.body.innerHTML += `${num} é um numero NaN ? ${Number.isNaN(num)} </br>`;
+        document.body.innerHTML += `arredondando para baixo ${Math.floor(num)} </br>`;
+        document.body.innerHTML+= `arredondando para cima  ${Math.ceil(num)} </br>`;
+        document.body.innerHTML+= `com duas casas decimais ${num.toFixed(2)} </br> `;
+
+
+
+    </script>
+</body>
+</html>

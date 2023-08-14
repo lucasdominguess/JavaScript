@@ -29,16 +29,5 @@ const resultado = soma(10,20) // variavel recebe o processamento da função
 console.log(resultado) //imprime resultado
 
 
-function cadastrar (nome,idade,estado,profisao) { 
-            cadastro = [
-            'nome :'== nome ,
-            'idade:'== idade ,
-            'Estado:'== estado ,
-            'profisão'== profisao ,]
-            return cadastro
+//Curso luiz Otavio 
 
-            }
-
-
-
-cadastrar ('paulo',20,'sao paulo','pedreiro')
