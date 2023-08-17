@@ -30,12 +30,13 @@ header {
     padding: 0px;
     margin: 0px;
     align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     font-weight: bold;
     box-shadow: 5px 5px 15px rgba(0,0,0,.357);
-    justify-content: center;
+   
     height: 300px;
     width: 350px;
    
