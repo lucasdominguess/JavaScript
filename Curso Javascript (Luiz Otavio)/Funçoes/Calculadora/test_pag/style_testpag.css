@@ -1,0 +1,49 @@
+
+
+body { 
+    background-color: rgba(143, 188, 143, 0.368);
+    
+}
+.corpo { 
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    border: solid ; 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    height: 300px;
+    
+}
+.display { 
+    display: flex;
+    align-items: center;
+    height: 50px;
+    
+
+
+
+
+}
+.opcoes { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    
+    ;
+}
+.div_limpar { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    
+    margin : 10px;
+}
