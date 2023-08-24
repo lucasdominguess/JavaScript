@@ -16,13 +16,13 @@ document.addEventListener("DOMContentLoaded", function() {
     function escrevendoLetra() {
       const titulo = document.querySelector('.digitando');
       ativaLetra(titulo);
-    // }
-    //   function escrevendoLetra2() { 'segundo texto'
-    //     const titulo2 = document.querySelector('.ola');
-    //     ativaLetra(titulo2);
+    }
+      function escrevendoLetra2() { 'segundo texto'
+        const titulo2 = document.querySelector('.ola');
+        ativaLetra(titulo2);
     }
   
   escrevendoLetra();
 
-  //escrevendoLetra2();
+  escrevendoLetra2();
 });
