@@ -1,0 +1,21 @@
+.white-bg { 
+    background:var(--var-white);
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.white-bg div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+.white-bg h2 { 
+    padding: 10px;
+    color: var(--var-color);
+    font-size: 2rem;
+
+}

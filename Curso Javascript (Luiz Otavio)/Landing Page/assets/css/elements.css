@@ -1,0 +1,39 @@
+:root { 
+    --var-color:#0a1828; 
+    --var-white:white;
+    --gap:30px
+    
+}
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    font-family: 'Open Sans' ,sans-serif;
+    color: var(--var-white);
+    
+}
+
+header { 
+    background-color: #0a1828;
+}
+
+h1 { 
+    text-transform: uppercase;
+    
+}
+
+h1 , h2 ,h3 ,h4 ,h5 ,h6 { 
+    font-family: 'Montserrat', sans-serif;
+}
+a { 
+    text-decoration: none;
+}
+nav { 
+    padding: 10px 10px 0px 10px;
+   
+}
