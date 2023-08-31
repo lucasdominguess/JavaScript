@@ -13,10 +13,46 @@
     justify-content: center;
 }
 .intro-text-content h2 { 
-    font-size:  3rem;
+    
     margin-bottom: 20px;
 }
 .intro-img img{ 
     max-width: 100%;
     height: 100%;
+}
+
+/* Section Grid-one */  
+
+.grid-one-content { 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+}
+.grid-one { 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: var(--gap);
+    counter-reset: gridcounter;
+}
+
+.grid-one-content h2{ 
+    padding-bottom: 15px;
+    font-size: 2rem;
+    text-align: start;
+
+}
+.imgconfig { 
+    max-width: 360px;
+    max-height: 360px;
+    width: 100%;
+    overflow: hidden;
+   
+}
+.imgconfig img{
+    transition: all 300ms ease-in-out; 
+
+}
+.imgconfig img:hover{ 
+    transform: translate(-3% ,3%)scale(1.2) rotate(5deg)
 }

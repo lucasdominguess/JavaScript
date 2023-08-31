@@ -20,6 +20,7 @@
     align-items: center;
     padding-top: 0;
     padding-bottom: 0;
+    background-color: rgba(85, 85, 85, 0.415);
 }
 
 .menu { 
@@ -30,9 +31,10 @@
     right: 0;
     width: 100%;
     color: #0a1828;
+    font-weight:500 ;
     border-bottom: 2px solid lightgray;
     z-index: 1;
-    border-radius: 4px;
+
     
     
 }
@@ -72,9 +74,30 @@
 }
 
 
-@media screen and (min-width: 500px )and (max-width: 768px){
-    .main-content h2 {
-        font-size: 1.6rem; 
+@media screen and (min-width: 400px )and (max-width: 768px){
+    .intro-text-content h2 {
+  
+        font-size: 2rem;
+        margin-top: 20px;
+    
+    
+        
         
     }
+}
+@media screen and (min-width: 769px )and (max-width: 1200px){
+    .intro-text-content h2 {
+        font-size: 3rem;
+        height: auto;
+    }
+}
+.intro-text-content p { 
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 1200px )and (max-width: 2000px){
+    .intro-text-content h2 {
+        font-size: 4rem; 
+    }
+
 }
