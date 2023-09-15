@@ -1,0 +1,173 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.desativado {
+    display: none;
+    
+}
+.ativo { 
+    display: block;
+}
+
+.Hstyle { 
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container { 
+    background-color: rgba(43, 43, 234, 0.338);
+    display: flex;
+    flex-direction: column;
+    
+}
+#img {
+  background-color: transparent;
+  margin: 10px;
+  width: 100%;
+  border: solid 1px black;
+}
+#formulario { 
+    background-color: brown;
+    width:100%;
+
+    padding: 10px;
+    gap: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-align: start; */
+}
+#formulario h2 { 
+    padding: 10px;
+}
+
+
+.notas { 
+    background-color: chartreuse;
+
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    gap: 5px;
+}
+.notas input {
+    background-color: violet;
+ 
+  
+
+}
+.notas h2 { 
+    font-size: 1.8rem;
+}
+.nota { 
+    background-color: rgb(214, 85, 85);
+    width:90% ;
+    height: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    border-radius: 5px;
+}
+.nota label {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+
+.nota input { 
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight:bold;
+
+}
+
+
+.button { 
+    background-color: blue;
+    width: 100%;
+    margin: 10px ;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn { 
+    width: 45%;
+    padding: 8px; 
+
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+
+
+
+#sessao-resultados { 
+    background-color: violet;
+   
+    gap: 10px;
+    padding: 20px;
+}
+
+.campo-resultado { 
+    background-color: yellowgreen;
+    width: 450px;
+    height: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+.campo-resultado span { 
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#detalhes { 
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    
+ 
+
+    padding: 10px;
+
+}
+#detalhes h2 { 
+    text-align: center;
+}
+#detalhes th { 
+    text-align: start;
+}
+#tabela { 
+    background-color: rgb(232, 223, 223);
+    
+    height: 200px;
+    border: solid 1px rgb(195, 49, 49);
+  
+}
+#resultadoSomaA1, #resultado-convertA1 ,#resultado-n1, #resultado-convertN1 , #min6 { 
+text-align: center;
+}
+
+
+
+
+

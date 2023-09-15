@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Nota Faculdade</title>
+</head>
+<body>
+    <section id="container">
+        <img id="img"  src="assets/img/undraw_education_f8ru.svg" alt="">
+
+        <form id="formulario">
+
+            <div class="notas">
+                <h2 class="Hstyle">Digite suas notas</h2>
+                <div class="nota">
+                    <label for="nota1">Atividade 1</label>
+                    <input type="number" name="nota1" id="nota1"required placeholder="Digite sua nota" min="0" max="10">
+                </div>
+                <div class="nota">
+                    <label for="nota2">Atividade 2</label>
+                    <input class="input"  type="number" name="nota2" id="nota2"required placeholder="Digite sua nota" min="0" max="10">
+                </div>
+                <div class="nota">
+                    <label for="nota3">Atividade 3</label>
+                    <input type="number" name="nota3" id="nota3"required placeholder="Digite sua nota"min="0" max="10">
+                </div>
+                <div class="nota">
+                    <label for="nota4">Atividade 4</label>
+                    <input type="number" name="nota4" id="nota4"required placeholder="Digite sua nota"min="0" max="10">
+                </div>
+                <div class="nota">
+                    <label for="nota5">Nota N2</label>
+                    <input type="number" name="nota5" id="nota5" placeholder="Digite a nota da prova N2"min="0" max="10">
+                </div>
+                <div class="button">
+                    <button type="submit" id="btn-enviar" class="btn">Enviar</button>
+                   <button type="reset" id="reset"  class="reset btn">Limpar</button>
+                </div>
+         </div>
+        </form>
+</section>
+
+<section id="sessao-resultados" class="desativado@@">
+    <div class="campo-resultado">
+        <h3 class="Hstyle  desativado@@">Resultado final</h3>
+                  <div>
+                        <span id="resultado-final"></span>
+                   </div>
+                   <div>
+                       <h3 class="Hstyle desativado@@">Situacao</h3>
+                       <span id="situacao"></span>
+                   </div>
+                <button type="button" id="btn-detalhes" class="btn desativado@@">Exibir detalhes</button>
+        
+    </div>
+</section>
+
+<section  id="detalhes" class="desativado@@">
+        <table id="tabela" border="2">
+            <h2 class="Hstyle"> Resultados detalhados </h2>
+            <thead>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Nota</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Soma das Atividades</td>
+                    <td id="resultadoSomaA1"></td>
+                </tr>
+                <tr>
+                    <td>Conversao das somas atividades</td>
+                    <td id="resultado-convertA1"> </td>
+                </tr>
+                <tr>
+                    <td>Nota N1</td>
+                    <td id="resultado-n1"></td>
+                </tr>
+                <tr>
+                    <td>Conversao da Nota N1</td>
+                    <td id="resultado-convertN1"></td>
+                </tr>
+                <tr>
+                    <td>Minimo para ser aprovado</td>
+                    <td id="min6">6</td>
+                </tr>
+               
+            </tbody>
+
+        </table>
+</section>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
