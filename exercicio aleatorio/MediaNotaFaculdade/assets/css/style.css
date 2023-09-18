@@ -1,11 +1,24 @@
+:root { 
+    --var-verd-00 :rgba(255, 255, 255, 0.804); 
+    --var-verd-01 :#73C884 ; 
+    --var-verd-02 :#4DA769;
+    --var-verd-03 : #25874E; 
+    --var-verd-04 : #006634; 
+    --var-verd-05 : #033d21f1; 
+
+}
+
+
 * { 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-.desativado {
+/* classes base */
+.desativado{
     display: none;
+    
     
 }
 .ativo { 
@@ -13,25 +26,33 @@
 }
 
 .Hstyle { 
+    color: var(--var-verd-00);
     font-size: 1.5rem;
     font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.texto-vermelho { 
+    color: red;
+    
+}
 
+/* conteudo */
 #container { 
-    background-color: rgba(43, 43, 234, 0.338);
+    background-color: var(--var-verd-00);
     display: flex;
     flex-direction: column;
+    color:var(--var-verd-00);
     
 }
 #img {
   background-color: transparent;
   margin: 10px;
-  width: 100%;
-  border: solid 1px black;
+  height: 250px;
+  width: 450px;
+  padding-bottom: 10px;
 }
 #formulario { 
-    background-color: brown;
+    background-color:var(--var-verd-00);
     width:100%;
 
     padding: 10px;
@@ -41,7 +62,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* text-align: start; */
+
 }
 #formulario h2 { 
     padding: 10px;
@@ -49,7 +70,7 @@
 
 
 .notas { 
-    background-color: chartreuse;
+    background-color: var(--var-verd-05);
 
     display: flex ;
     flex-direction: column;
@@ -57,20 +78,15 @@
     align-items: center;
 
     width: 100%;
-
+    border-radius: 10px;
     gap: 5px;
 }
-.notas input {
-    background-color: violet;
- 
-  
 
-}
 .notas h2 { 
     font-size: 1.8rem;
 }
 .nota { 
-    background-color: rgb(214, 85, 85);
+    background-color: var(--var-verd-03);
     width:90% ;
     height: auto;
     
@@ -97,7 +113,7 @@
 
 
 .button { 
-    background-color: blue;
+    
     width: 100%;
     margin: 10px ;
     padding: 10px;
@@ -112,22 +128,35 @@
 
     border-radius: 10px;
     font-size: 1.1rem;
+    background-color: var(--var-verd-03);
+    color: var(--var-verd-00);
+    border: 2px solid var(--var-verd-00);
+    cursor: pointer;
+    
+}
+.btn:hover{ 
+    font-weight: bold;
+    color: var(--var-verd-05);
+    background-color: var(--var-verd-01);
+    border: 2px solid var(--var-verd-01);
+    letter-spacing: 1px ; 
+     
+   
 }
 
-
-
-
 #sessao-resultados { 
-    background-color: violet;
-   
+    background-color:var(--var-verd-05);
     gap: 10px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .campo-resultado { 
-    background-color: yellowgreen;
-    width: 450px;
-    height: 200px;
+    background-color: var(--var-verd-05);
+    width: 100%;
+    height: 220px;
     
     display: flex;
     justify-content: center;
@@ -135,18 +164,29 @@
     flex-direction: column;
     text-align: center;
     gap: 5px;
+    border-radius: 10px;
 }
 .campo-resultado span { 
     font-size: 1.5rem;
     font-weight: 500;
 }
+
+/* sessao detalhes ocultos */
+#section-detalhes { 
+    display: flex;
+    justify-content: center;
+}
 #detalhes { 
-    background-color: cadetblue;
+    background-color:var(--var-verd-05);
+    width: 100%;
     display: flex;
     flex-direction: column;
-    
- 
+    align-items: center;
+    justify-content: center;
 
+    gap: 5px;
+    border-radius: 8px;
+    margin: 5px;
     padding: 10px;
 
 }
@@ -157,10 +197,11 @@
     text-align: start;
 }
 #tabela { 
-    background-color: rgb(232, 223, 223);
     
+    background-color:var(--var-verd-00);
+    width: 100%;
     height: 200px;
-    border: solid 1px rgb(195, 49, 49);
+    border: solid 1px ;
   
 }
 #resultadoSomaA1, #resultado-convertA1 ,#resultado-n1, #resultado-convertN1 , #min6 { 

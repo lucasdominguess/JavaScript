@@ -24,12 +24,14 @@ function notaFaculdade() {
         const situacao = document.getElementById('situacao');
         if (nota_final >= 6) {
           situacao.innerHTML = 'Aprovado';
+          situacao.classList.remove('texto-vermelho');
         } else {
           situacao.innerHTML = 'Reprovado';
+          situacao.classList.add('texto-vermelho');
         }
     //Sessao Exibir/Ocultar sessoes resultados e detalhes 
     const btn_detalhes = document.getElementById('btn-detalhes');
-    const resultado  = document.getElementById('sessao-resultados');
+    const resultado  = document.getElementById('sessao-resultado');
     
     btn_detalhes.classList.add('ativo');
     btn_detalhes.classList.remove('desativado') ;
@@ -39,7 +41,7 @@ function notaFaculdade() {
 
     //evento clicar no botao mostrar detalhes 
     btn_detalhes.addEventListener('click', () => {
-    const detalhes = document.getElementById('detalhes'); 
+    const detalhes = document.getElementById('sessao-detalhes'); 
        
 
     if (detalhes.classList.contains('ativo')){

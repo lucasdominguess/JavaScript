@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
     <title>Nota Faculdade</title>
 </head>
 <body>
-    <section id="container">
-        <img id="img"  src="assets/img/undraw_education_f8ru.svg" alt="">
+    <section id="container" class="desativado">
+        <img id="img"  src="assets/img/undraw_education_f8ru.svg" alt="imagem ilustrativa">
 
         <form id="formulario">
 
@@ -42,55 +43,57 @@
         </form>
 </section>
 
-<section id="sessao-resultados" class="desativado@@">
+<section id="sessao-resultado" class="desativado">
     <div class="campo-resultado">
-        <h3 class="Hstyle  desativado@@">Resultado final</h3>
+        <h3 class="Hstyle">Resultado Final</h3>
                   <div>
-                        <span id="resultado-final"></span>
+                        <span id="resultado-final" class="Hstyle"></span>
                    </div>
                    <div>
-                       <h3 class="Hstyle desativado@@">Situacao</h3>
-                       <span id="situacao"></span>
+                       <h3 class="Hstyle ">Situacao</h3>
+                       <span id="situacao" class="Hstyle"></span>
                    </div>
-                <button type="button" id="btn-detalhes" class="btn desativado@@">Exibir detalhes</button>
+                <button type="button" id="btn-detalhes" class="btn desativado">Exibir detalhes</button>
         
     </div>
 </section>
 
-<section  id="detalhes" class="desativado@@">
-        <table id="tabela" border="2">
-            <h2 class="Hstyle"> Resultados detalhados </h2>
-            <thead>
-                <tr>
-                    <th>Tipo</th>
-                    <th>Nota</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Soma das Atividades</td>
-                    <td id="resultadoSomaA1"></td>
-                </tr>
-                <tr>
-                    <td>Conversao das somas atividades</td>
-                    <td id="resultado-convertA1"> </td>
-                </tr>
-                <tr>
-                    <td>Nota N1</td>
-                    <td id="resultado-n1"></td>
-                </tr>
-                <tr>
-                    <td>Conversao da Nota N1</td>
-                    <td id="resultado-convertN1"></td>
-                </tr>
-                <tr>
-                    <td>Minimo para ser aprovado</td>
-                    <td id="min6">6</td>
-                </tr>
-               
-            </tbody>
-
-        </table>
+<section id="sessao-detalhes" class="desativado">
+        <div id="detalhes" >
+            <table id="tabela" border="2">
+                <h2 class="Hstyle"> Resultados detalhados </h2>
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Nota</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Soma das Atividades</td>
+                        <td id="resultadoSomaA1"></td>
+                    </tr>
+                    <tr>
+                        <td>Conversao das somas atividades</td>
+                        <td id="resultado-convertA1"> </td>
+                    </tr>
+                    <tr>
+                        <td>Nota N1</td>
+                        <td id="resultado-n1"></td>
+                    </tr>
+                    <tr>
+                        <td>Conversao da Nota N1</td>
+                        <td id="resultado-convertN1"></td>
+                    </tr>
+                    <tr>
+                        <td>Minimo para ser aprovado</td>
+                        <td id="min6">6</td>
+                    </tr>
+    
+                </tbody>
+    
+            </table>
+        </div>
 </section>
 
 
