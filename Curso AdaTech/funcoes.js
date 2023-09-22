@@ -42,3 +42,14 @@ function cadastrar (nome,idade,estado,profisao) {
 
 
 cadastrar ('paulo',20,'sao paulo','pedreiro')
+
+function parimpar(n) {
+    if (n%2==0) { 
+      return "par"
+     } else { 
+     return 'Impar'
+}
+}
+
+
+let numero = parimpar
