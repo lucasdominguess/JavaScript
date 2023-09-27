@@ -1,3 +1,0 @@
-nome : lucas 
-sobrenome: domingues 
-idade : 30
