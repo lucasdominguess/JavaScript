@@ -15,5 +15,5 @@ function escolhaNum(num1, num2, criterio //3° criterio opcional
             return num2;
     }
 }
-const numeroEscolhido = escolhaNum(10, 20, "lower");
+const numeroEscolhido = escolhaNum(10, 20, "greater");
 console.log(numeroEscolhido);
